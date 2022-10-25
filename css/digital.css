@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.web-page {
+  min-width: 1300px;
+  position: relative;
+}
+.container {
+  display: grid;
+  grid-template-columns: 50% repeat(2, 25%);
+  grid-template-rows: auto auto;
+  border: 5px solid blue;
+  padding: 0;
+}
+h1 {
+  border-bottom: 1px solid black;
+  color: #4141f1;
+}
+/* tạo border cho các boxer */
+.boxer {
+  border: 10px solid blue;
+  padding: 20px;
+}
+.boxer3 {
+  grid-area: 1/3 / span2/4;
+}
+/* .boxer1,
+.boxer2 {
+  border-right: 0;
+  border-bottom: 0;
+}
+.boxer4,
+.boxer5 {
+  border-right: 0;
+} */
+
+/* phân vùng cho box goals */
+.goal {
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+.goal > span {
+  border-bottom: 0.2px solid black;
+}
+/* phân vùng cho team, timeline, primary */
+.teams,
+.timelines,
+.primarys {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  gap: 10px;
+  align-items: center;
+}
+.timelines > span {
+  border-bottom: 0.5px dotted black;
+  margin-bottom: 10px;
+}
+/* tạo vòng cho số thứ tự của timeline */
+.border-number {
+  text-align: center;
+  font-size: larger;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: #7845a8;
+}
+/* phân vùng cho scopes */
+.tow-colums {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+.paragrap {
+  padding: 10px;
+}
