@@ -1,0 +1,104 @@
+@media screen and (max-width: 992px) {
+  .avatar {
+    display: none;
+  }
+  .nav-sizes {
+    padding: 15px 10px;
+  }
+
+  .web-page {
+    min-width: 600px;
+  }
+  #target {
+    padding: 30px;
+  }
+  #personal-info {
+    padding: 30px;
+  }
+  .section-title {
+    font-size: large;
+  }
+
+  .container-ey {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: auto auto auto;
+  }
+
+  .box1 {
+    grid-area: 1 / 1 / span 2 / 2;
+  }
+  .box2 {
+    grid-area: 2 / 2 / span 2 / 3;
+  }
+  .box3 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .box4 {
+    grid-area: 4 / 2 / span 2 / 3;
+  }
+  .box5 {
+    grid-area: 5 / 1 / span 2 / 2;
+  }
+  .box6 {
+    grid-area: 3 / 1 / span 2 / 2;
+  }
+
+  .certf {
+    display: block;
+  }
+
+  .container-es {
+    font-size: 10px;
+    gap: 20px;
+  }
+  th,
+  td,
+  table {
+    border: 0.3px solid;
+    text-align: left;
+    font-size: x-small;
+    color: gray;
+    border-collapse: collapse;
+    padding: 15px 10px;
+    height: 110px;
+  }
+  /* table {
+    border: 0.3px solid;
+  }*/
+
+  /* mobile cho digital */
+  .container {
+    display: block;
+  }
+  .goal {
+    display: block;
+  }
+  .goal > span {
+    border-bottom: 0;
+  }
+  .fa {
+    margin-left: 50%;
+  }
+  .goal p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-bottom: 5px;
+    border-bottom: 0.2px solid black;
+  }
+  .teams,
+  .timelines,
+  .primarys {
+    display: block;
+  }
+  .timelines h4 {
+    padding-top: 20px;
+  }
+  .timelines p {
+    padding-bottom: 5px;
+    border-bottom: 1px dotted skyblue;
+  }
+
+  .tow-colums {
+    display: block;
+  }
+}
