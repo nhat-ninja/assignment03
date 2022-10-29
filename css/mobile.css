@@ -1,7 +1,10 @@
 @media screen and (max-width: 600px) {
   .web-page {
     margin: 5px;
-    min-width: 550px;
+    min-width: 600px;
+  }
+  .centered {
+    color: #fff;
   }
   .container-ex,
   .container-nav,
@@ -15,29 +18,73 @@
     display: none;
   }
   .nav-size {
-    padding: 15px 30px;
+    padding: 15px 0;
     border: none;
   }
   #nav-bar {
     text-align: left;
+    height: 100px;
   }
+  .certf {
+    display: block;
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #d6c08d;
+    font-size: x-large;
+  }
+  .cer2,
+  .cer3,
+  .cer4 {
+    border: 0;
+  }
+  .cer1,
   .cer2 {
-    border-left: none;
+    border-bottom: 1px solid #d6c08d;
   }
+  .cer4 {
+    display: hidden;
+  }
+  .certf > img {
+    width: 100%;
+  }
+
   th,
   td,
+  tr,
+  table {
+    border: 0;
+    border-bottom: 0.3px solid;
+    text-align: left;
+    font-size: small;
+    color: gray;
+    padding: 15px 10px;
+  }
   table {
     border: 0.3px solid;
-    text-align: left;
-    font-size: xx-small;
-    color: gray;
-    border-collapse: collapse;
-    padding: 15px 10px;
-    height: 80px;
+  }
+  .th1,
+  .th2 {
+    height: auto;
   }
 
   /* mobile for digital */
   .boxer {
     padding: 50px;
+  }
+  .row3 {
+    font-size: small;
+  }
+  .row3 > ul {
+    display: block;
+  }
+  .row3 > ul > li {
+    margin: 5px 0;
+  }
+  /* edit footer */
+  .foot-icon {
+    padding: 0;
+  }
+  .mobile-hide {
+    display: none;
   }
 }

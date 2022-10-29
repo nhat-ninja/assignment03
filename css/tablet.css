@@ -1,4 +1,4 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .avatar {
     display: none;
   }
@@ -7,7 +7,7 @@
   }
 
   .web-page {
-    min-width: 600px;
+    min-width: 768px;
   }
   #target {
     padding: 30px;
@@ -53,19 +53,28 @@
   }
   th,
   td,
+  tr,
   table {
-    border: 0.3px solid;
+    border: 0;
+    border-bottom: 0.3px solid;
     text-align: left;
     font-size: x-small;
     color: gray;
-    border-collapse: collapse;
     padding: 15px 10px;
-    height: 110px;
+    /* height: 110px; */
   }
-  /* table {
+  table {
     border: 0.3px solid;
-  }*/
-
+  }
+  .th1,
+  .th2 {
+    height: 170px;
+  }
+  .prop {
+    padding: 0;
+    max-width: 530px;
+    width: 100%;
+  }
   /* mobile cho digital */
   .container {
     display: block;
